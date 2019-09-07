@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --name data-science-docker -p 8888:8888 -v "$PWD/notebooks:/opt/notebooks" -d data-science-docker
